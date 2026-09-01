@@ -1,0 +1,401 @@
+id,name,repo,downloads,last_commit,commit_months,archived,licence,open_issues,stars
+obsidian-excalidraw-plugin,Excalidraw,zsviczian/obsidian-excalidraw-plugin,7656596,2026-09-01,0.0,false,AGPL-3.0,889,7534
+templater-obsidian,Templater,silentvoid13/Templater,5470348,2026-08-05,0.9,false,AGPL-3.0,186,5255
+dataview,Dataview,blacksmithgu/obsidian-dataview,4879886,2025-11-17,9.5,false,MIT,662,9307
+obsidian-tasks-plugin,Tasks,obsidian-tasks-group/obsidian-tasks,4143802,2026-08-30,0.1,false,MIT,156,3979
+table-editor-obsidian,Advanced Tables,tgrosinger/advanced-tables-obsidian,3158325,2026-05-13,3.6,false,GPL-3.0,111,2600
+obsidian-git,Git,vinzent03/obsidian-git,3083638,2026-08-17,0.5,false,MIT,131,11894
+calendar,Calendar,liamcain/obsidian-calendar-plugin,3059654,2024-06-22,26.3,false,MIT,186,2256
+obsidian-style-settings,Style Settings,obsidian-community/obsidian-style-settings,2641200,2026-07-13,1.6,false,GPL-3.0,40,2464
+obsidian-kanban,Kanban,obsidian-community/obsidian-kanban,2614609,2026-03-06,5.9,false,GPL-3.0,601,4486
+obsidian-icon-folder,Iconize,florianwoelki/obsidian-iconize,2201003,2026-04-27,4.2,false,MIT,179,1402
+remotely-save,Remotely Save,remotely-save/remotely-save,2194347,2024-11-10,21.7,false,NOASSERTION,224,8047
+quickadd,QuickAdd,chhoumann/quickadd,2055852,2026-08-31,0.0,false,MIT,3,2349
+realclaudian,Claudian,yishentu/claudian,1967678,2026-09-01,0.0,false,MIT,69,15092
+editing-toolbar,Editing Toolbar,pkm-er/obsidian-editing-toolbar,1824347,2026-08-13,0.6,false,MPL-2.0,152,1519
+omnisearch,Omnisearch,scambier/obsidian-omnisearch,1813609,2026-08-25,0.2,false,GPL-3.0,93,2131
+copilot,Copilot,logancyang/obsidian-copilot,1794769,2026-09-01,0.0,false,AGPL-3.0,122,7660
+obsidian-minimal-settings,Minimal Theme Settings,kepano/obsidian-minimal-settings,1778138,2026-07-31,1.1,false,MIT,10,803
+obsidian-importer,Importer,obsidianmd/obsidian-importer,1614228,2026-08-26,0.2,false,MIT,63,1635
+obsidian-outliner,Outliner,vslinko/obsidian-outliner,1382427,2026-06-27,2.2,false,MIT,104,1365
+homepage,Homepage,mirnovov/obsidian-homepage,1298968,2026-06-03,3.0,false,MIT,22,711
+tasknotes,TaskNotes,callumalpass/tasknotes,1282444,2026-08-29,0.1,false,MIT,462,2090
+smart-connections,Smart Connections,brianpetro/obsidian-smart-connections,1180349,2026-08-31,0.0,false,NOASSERTION,490,5419
+recent-files-obsidian,Recent Files,tgrosinger/recent-files-obsidian,1174762,2026-07-21,1.4,false,GPL-3.0,22,527
+tag-wrangler,Tag Wrangler,pjeby/tag-wrangler,1070970,2026-08-13,0.6,false,ISC,41,926
+obsidian-linter,Linter,platers/obsidian-linter,1038282,2026-08-21,0.4,false,MIT,256,2046
+obsidian42-brat,BRAT,tfthacker/obsidian42-brat,1009583,2026-08-20,0.4,false,MIT,23,1627
+obsidian-admonition,Admonition,ebullient/obsidian-admonition,960359,2026-08-31,0.0,false,MIT,17,1327
+notebook-navigator,Notebook Navigator,johansan/notebook-navigator,916451,2026-09-01,0.0,false,GPL-3.0,3,2675
+obsidian-livesync,Self-hosted LiveSync,vrtmrz/obsidian-livesync,901957,2026-09-01,0.0,false,MIT,354,12202
+obsidian-mind-map,Mind Map,lynchjames/obsidian-mind-map,879212,2024-02-25,30.2,false,MIT,103,1422
+obsidian-day-planner,Day Planner,ivan-lednev/obsidian-day-planner,873977,2026-08-06,0.9,false,MIT,161,2700
+make-md,make.md,make-md/makemd,861727,2026-07-09,1.8,false,MIT,352,2015
+obsidian-advanced-slides,Advanced Slides,mszturc/obsidian-advanced-slides,835433,2024-06-29,26.1,false,MIT,129,1257
+advanced-canvas,Advanced Canvas,developer-mike/obsidian-advanced-canvas,788126,2026-08-28,0.1,false,GPL-3.0,4,1506
+pdf-plus,PDF++,ryotaushio/obsidian-pdf-plus,754949,2025-08-30,12.1,false,MIT,161,2431
+periodic-notes,Periodic Notes,liamcain/obsidian-periodic-notes,749638,2024-08-23,24.3,false,MIT,168,1355
+highlightr-plugin,Highlightr,chetachiezikeuzor/Highlightr-Plugin,710489,2023-11-15,33.5,false,MPL-2.0,88,810
+obsidian-local-rest-api,Local REST API with MCP,coddingtonbear/obsidian-local-rest-api,701239,2026-08-31,0.0,false,MIT,3,2877
+cmdr,Commander,jsmorabito/obsidian-commander,667205,2026-08-28,0.1,false,MIT,108,1205
+obsidian-advanced-uri,Advanced URI,vinzent03/obsidian-advanced-uri,643267,2026-08-17,0.5,false,MIT,17,1201
+better-word-count,Better Word Count,lukeleppan/better-word-count,609027,2025-06-20,14.4,false,MIT,74,309
+obsidian-annotator,Annotator,elias-sundqvist/obsidian-annotator,593944,2024-01-08,31.8,false,AGPL-3.0,272,1771
+obsidian-spaced-repetition,Spaced Repetition,st3v3nmw/obsidian-spaced-repetition,588915,2026-09-01,0.0,false,MIT,339,2541
+various-complements,Various Complements,tadashi-aikawa/obsidian-various-complements-plugin,577016,2026-08-26,0.2,false,MIT,58,937
+obsidian-textgenerator-plugin,Text Generator,nhaouari/obsidian-textgenerator-plugin,576252,2026-08-06,0.9,false,MIT,25,1980
+obsidian-hover-editor,Hover Editor,nothingislost/obsidian-hover-editor,572404,2026-08-29,0.1,false,MIT,125,780
+obsidian-latex-suite,Latex Suite,artisticat1/obsidian-latex-suite,569851,2026-08-30,0.1,false,MIT,33,2478
+obsidian-pandoc,Pandoc Plugin,oliverbalfour/obsidian-pandoc,548723,2024-05-15,27.6,false,MIT,161,908
+obsidian-zotero-desktop-connector,Zotero Integration,obsidian-community/obsidian-zotero-integration,546056,2026-03-06,5.9,false,GPL-3.0,258,1757
+image-converter,Image Converter,xryul/obsidian-image-converter,516541,2026-08-04,0.9,false,MIT,143,822
+nldates-obsidian,Natural Language Dates,obsidian-community/nldates,514041,2026-07-26,1.2,false,MIT,4,10
+obsidian-meta-bind-plugin,Meta Bind,mprojectscode/obsidian-meta-bind-plugin,511580,2026-08-22,0.3,false,GPL-3.0,81,1000
+obsidian-emoji-toolbar,Emoji Toolbar,oliveryh/obsidian-emoji-toolbar,492667,2026-06-27,2.2,false,BSD-3-Clause,18,255
+url-into-selection,Paste URL into selection,denolehov/obsidian-url-into-selection,490766,2025-08-27,12.2,false,NONE,27,447
+darlal-switcher-plus,Quick Switcher++,darlal/obsidian-switcher-plus,459430,2026-07-25,1.2,false,GPL-3.0,21,631
+obsidian-full-calendar,Full Calendar,obsidian-community/obsidian-full-calendar,457141,2024-11-08,21.7,true,MIT,122,993
+obsidian-checklist-plugin,Checklist,delashum/obsidian-checklist-plugin,456931,2025-01-11,19.6,false,MIT,74,482
+obsidian-hider,Hider,kepano/obsidian-hider,453034,2026-08-06,0.9,false,MIT,1,575
+buttons,Buttons,shabegom/buttons,448275,2025-08-26,12.2,false,Unlicense,17,651
+obsidian-enhancing-export,Enhancing Export,mokeyish/obsidian-enhancing-export,441631,2026-08-22,0.3,false,MIT,86,547
+folder-notes,Folder notes,lostpaul/obsidian-folder-notes,424991,2026-08-15,0.6,false,AGPL-3.0,45,735
+obsidian-memos,Thino,quorafind/Obsidian-Thino,420361,2026-08-22,0.3,false,NOASSERTION,74,1361
+terminal,Terminal,polyipseity/obsidian-terminal,405785,2026-08-22,0.3,false,AGPL-3.0,22,931
+obsidian-auto-link-title,Auto Link Title,zolrath/obsidian-auto-link-title,379257,2024-12-15,20.5,false,MIT,90,697
+media-extended,Media Extended,aidenlx/media-extended,370997,2026-06-07,2.8,false,NONE,44,952
+obsidian-tracker,Tracker,pyrochlore/obsidian-tracker,361096,2026-04-13,4.6,false,MIT,217,1950
+oz-image-plugin,Image in Editor,ozntel/oz-image-in-editor-obsidian,356927,2024-02-10,30.7,false,NONE,11,376
+file-tree-alternative,File Tree Alternative,ozntel/file-tree-alternative,347713,2024-06-22,26.3,false,NONE,121,602
+obsidian-banners,Banners,noatpad/obsidian-banners,347387,2024-01-18,31.4,false,MIT,118,811
+easy-typing-obsidian,Easy Typing,yaozhuwa/easy-typing-obsidian,344287,2026-07-12,1.7,false,MIT,58,762
+note-toolbar,Note Toolbar,chrisgurney/obsidian-note-toolbar,342863,2026-08-31,0.0,false,GPL-3.0,7,771
+note-refactor-obsidian,Note Refactor,lynchjames/note-refactor-obsidian,341706,2024-01-22,31.3,false,MIT,91,643
+excalibrain,ExcaliBrain,zsviczian/excalibrain,334748,2026-05-31,3.1,false,MIT,147,991
+mermaid-tools,Mermaid Tools,dartungar/obsidian-mermaid,333478,2026-06-14,2.6,false,MIT,7,327
+obsidian-quiet-outline,Quiet Outline,guopenghui/obsidian-quiet-outline,327845,2026-08-07,0.8,false,MIT,18,582
+metadata-menu,Metadata Menu,mdelobelle/metadatamenu,327208,2026-02-11,6.6,false,MIT,231,725
+obsidian-reminder-plugin,Reminder,uphy/obsidian-reminder,325814,2026-08-30,0.1,false,MIT,77,655
+datacore,Datacore,blacksmithgu/datacore,324047,2026-06-22,2.3,false,MIT,79,2231
+text-extractor,Text Extractor,scambier/obsidian-text-extractor,323824,2026-04-24,4.3,false,GPL-3.0,23,636
+better-export-pdf,Better Export PDF,l1xnan/obsidian-better-export-pdf,323709,2026-08-23,0.3,false,MIT,112,726
+obsidian-5e-statblocks,Fantasy Statblocks,obsidian-ttrpg-community/fantasy-statblocks,322696,2026-01-21,7.3,false,MIT,54,481
+obsidian-charts,Charts,phibr0/obsidian-charts,320903,2024-06-19,26.4,false,AGPL-3.0,78,803
+breadcrumbs,Breadcrumbs,michaelpporter/breadcrumbs,313894,2026-08-26,0.2,false,MIT,1,816
+obsidian-leaflet-plugin,Leaflet,javalent/obsidian-leaflet,308839,2025-07-09,13.8,false,NONE,50,711
+obsidian-languagetool-plugin,LanguageTool Integration,clemens-e/obsidian-languagetool-plugin,305591,2026-08-26,0.2,false,AGPL-3.0,16,570
+file-explorer-note-count,File Explorer Note Count,ozntel/file-explorer-note-count,291733,2025-09-22,11.3,false,NONE,19,153
+pretty-properties,Pretty Properties,anareaty/pretty-properties,280168,2026-08-30,0.1,false,MIT,53,342
+obsidian-dice-roller,Dice Roller,obsidian-ttrpg-community/dice-roller,279783,2025-03-24,17.3,false,NONE,76,342
+colored-text,Colored Text,erincayaz/obsidian-colored-text,276809,2026-08-25,0.2,false,MIT,7,106
+obsidian-custom-frames,Custom Frames,ellpeck/ObsidianCustomFrames,264695,2026-08-09,0.8,false,MIT,53,843
+agent-client,Agent Client,rait-09/obsidian-agent-client,254426,2026-08-30,0.1,false,Apache-2.0,61,2382
+obsidian-tagfolder,TagFolder,vrtmrz/obsidian-tagfolder,251943,2026-08-14,0.6,false,MIT,72,350
+readwise-official,Readwise Official,readwiseio/obsidian-readwise,242159,2026-05-28,3.2,false,GPL-3.0,60,354
+cmenu-plugin,cMenu,chetachiezikeuzor/cMenu-Plugin,237386,2022-09-05,47.9,false,MPL-2.0,44,479
+obsidian-enhancing-mindmap,Enhancing Mindmap,markmindckm/obsidian-enhancing-mindmap,236020,2026-01-08,7.8,false,MIT,95,711
+obsidian-citation-plugin,Citations,hans/obsidian-citation-plugin,234219,2024-06-13,26.6,false,MIT,173,1337
+code-styler,Code Styler,mayurankv/Obsidian-Code-Styler,232107,2025-02-16,18.5,false,NOASSERTION,122,602
+obsidian-book-search-plugin,Book Search,anpigon/obsidian-book-search-plugin,229092,2024-10-16,22.5,false,MIT,80,712
+iconic,Iconic,gfxholo/iconic,227691,2026-07-23,1.3,false,MIT-0,90,845
+obsidian-text-format,Text Format,benature/obsidian-text-format,226678,2024-07-21,25.4,false,MIT,29,268
+obsidian-dictionary-plugin,Dictionary,phibr0/obsidian-dictionary,226031,2024-02-16,30.5,false,AGPL-3.0,35,439
+find-unlinked-files,Find orphaned files and broken links,vinzent03/find-unlinked-files,223489,2026-07-28,1.1,false,MIT,9,370
+obsidian-plugin-toc,Table of Contents,hipstersmoothie/obsidian-plugin-toc,223205,2024-07-07,25.8,false,NONE,36,339
+obsidian-file-color,File Color,ecustic/obsidian-file-color,219879,2026-06-19,2.4,false,MIT,39,201
+multi-column-markdown,Multi-Column Markdown,ckrobinson/multi-column-markdown,216691,2024-05-19,27.4,false,GPL-3.0,44,431
+colored-tags,Colored Tags,pfrankov/obsidian-colored-tags,215273,2026-08-29,0.1,false,MIT,3,162
+drawio-obsidian,Diagrams,zapthedingbat/drawio-obsidian,212866,2026-02-22,6.3,false,MIT,73,660
+supercharged-links-obsidian,Supercharged Links,mdelobelle/obsidian_supercharged_links,209328,2025-12-22,8.3,false,MIT,131,695
+quick-latex,Quick Latex,joeyuping/quick_latex_obsidian,208039,2024-09-10,23.7,false,MIT,40,343
+callout-manager,Callout Manager,eth-p/obsidian-callout-manager,204224,2026-08-04,0.9,false,MIT,43,282
+custom-sort,Custom File Explorer sorting,sebastianmc/obsidian-custom-sort,203028,2026-03-09,5.8,false,GPL-3.0,20,478
+obsidian-excel-to-markdown-table,Excel to Markdown Table,ganesshkumar/obsidian-excel-to-markdown-table,200371,2026-08-08,0.8,false,MIT,13,255
+google-calendar,Google Calendar,yukigasai/obsidian-google-calendar,197312,2026-01-22,7.3,false,GPL-3.0,79,492
+sheet-plus,Sheet Plus,ljcoder2015/obsidian-sheet-plus,197097,2026-09-01,0.0,false,Apache-2.0,35,440
+novel-word-count,Novel word count,isaaclyman/novel-word-count-obsidian,193548,2026-08-03,1.0,false,MIT,1,144
+system3-relay,Relay,no-instructions/Relay,192924,2026-09-01,0.0,false,MIT,22,521
+obsidian-another-quick-switcher,Another Quick Switcher,tadashi-aikawa/obsidian-another-quick-switcher,192296,2026-08-26,0.2,false,MIT,44,403
+obsidian-weread-plugin,Weread,zhaohongxuan/obsidian-weread-plugin,192214,2026-07-18,1.5,false,MIT,90,2194
+calendarium,Calendarium,javalent/calendarium,188699,2025-09-27,11.1,false,MIT,73,152
+ink,Ink,daledesilva/obsidian_ink,188599,2026-09-01,0.0,false,NOASSERTION,84,1370
+meld-encrypt,Meld Encrypt,meld-cp/obsidian-encrypt,183152,2026-07-01,2.0,false,MIT,41,970
+longform,Longform,kevboh/longform,181620,2025-12-02,9.0,false,NOASSERTION,124,951
+remember-cursor-position,Remember cursor position,dy-sh/obsidian-remember-cursor-position,181049,2026-07-15,1.6,false,MIT,61,299
+nutstore-sync,Nutstore Sync,nutstore/obsidian-nutstore-sync,180318,2026-08-21,0.4,false,AGPL-3.0,42,597
+todoist-sync-plugin,Todoist Sync,jamiebrynes7/obsidian-todoist-plugin,179695,2026-03-15,5.6,false,MIT,49,1193
+card-board,CardBoard,roovo/obsidian-card-board,175648,2024-02-25,30.2,false,MIT,121,636
+heatmap-calendar,Heatmap Calendar,richardsl/heatmap-calendar-obsidian,174105,2025-02-10,18.7,false,Apache-2.0,50,957
+smart-composer,Smart Composer,glowingjade/obsidian-smart-composer,171003,2026-02-16,6.5,false,MIT,112,2322
+obsidian-smart-typography,Smart Typography,mgmeyers/obsidian-smart-typography,167197,2024-03-30,29.1,false,GPL-3.0,41,341
+google-drive-sync,Google Drive Sync,richardx366/Obsidian-Google-Drive,167098,2026-08-26,0.2,false,0BSD,6,352
+obsidian-plugin-update-tracker,Plugin Update Tracker,swar8080/obsidian-plugin-update-tracker,166167,2025-05-30,15.1,false,MIT,46,172
+mousewheel-image-zoom,Mousewheel Image zoom,nicojeske/mousewheel-image-zoom,165867,2025-05-29,15.1,false,MIT,8,144
+obsidian-map-view,Map View,esm7/obsidian-map-view,165481,2026-08-22,0.3,false,MIT,137,872
+obsidian-kindle-plugin,Kindle Highlights,hadynz/obsidian-kindle-plugin,165333,2026-02-18,6.4,false,MIT,47,1277
+quick-explorer,Quick Explorer,pjeby/quick-explorer,162516,2026-08-15,0.6,false,ISC,23,338
+pane-relief,Pane Relief,pjeby/pane-relief,162147,2025-03-08,17.8,false,NONE,11,307
+obsidian-task-progress-bar,Task Genius,taskgenius/taskgenius-plugin,161559,2026-06-28,2.1,false,NOASSERTION,211,576
+pexels-banner,Pixel Banner,jparkerweb/pixel-banner,159412,2026-04-17,4.5,false,Apache-2.0,31,211
+execute-code,Execute Code,twibiral/obsidian-execute-code,159337,2025-08-02,13.0,false,MIT,171,1532
+initiative-tracker,Initiative Tracker,obsidian-ttrpg-community/initiative-tracker,159014,2026-04-12,4.7,false,GPL-3.0,76,222
+obsidian-local-images-plus,Local Images Plus,sergei-korneev/obsidian-local-images-plus,158656,2026-03-18,5.5,false,MIT,53,562
+obsidian-paste-image-rename,Paste image rename,reorx/obsidian-paste-image-rename,157873,2025-12-22,8.3,false,MIT,80,420
+obsidian-plantuml,PlantUML,joethei/obsidian-plantuml,155980,2026-06-12,2.7,false,MIT,28,529
+automatic-table-of-contents,Automatic Table Of Contents,johansatge/obsidian-automatic-table-of-contents,155758,2026-02-07,6.8,false,MIT,23,282
+canvas-mindmap,Canvas Mindmap,quorafind/Obsidian-Canvas-MindMap,153961,2024-09-04,23.9,false,NONE,24,374
+obsidian-vimrc-support,Vimrc Support,esm7/obsidian-vimrc-support,152575,2026-03-26,5.2,false,MIT,99,1459
+oz-clear-unused-images,Clear Unused Images,ozntel/oz-clear-unused-images-obsidian,151971,2024-08-20,24.4,false,NONE,37,282
+webpage-html-export,Webpage HTML Export,kosmosisdire/obsidian-webpage-export,151291,2026-03-19,5.5,false,MIT,232,1353
+obsidian-rollover-daily-todos,Rollover Daily Todos,lumoe/obsidian-rollover-daily-todos,148156,2026-05-12,3.7,false,MIT,61,369
+metaedit,MetaEdit,chhoumann/MetaEdit,145271,2026-08-31,0.0,false,GPL-3.0,0,502
+floating-toc,floating toc,pkm-er/obsidian-floating-toc-plugin,143358,2026-01-24,7.2,false,MIT,58,287
+consistent-attachments-and-links,Consistent Attachments and Links,dy-sh/obsidian-consistent-attachments-and-links,141293,2026-09-01,0.0,false,MIT,0,389
+emoji-shortcodes,Emoji Shortcodes,phibr0/obsidian-emoji-shortcodes,140676,2023-01-05,43.9,false,MIT,27,229
+obsidian-footnotes,Footnote Shortcut,michabrugger/obsidian-footnotes,139614,2026-08-11,0.7,false,MIT,2,172
+folder-note-plugin,Folder Note,xpgo/obsidian-folder-note-plugin,139609,2024-07-20,25.4,false,NONE,100,482
+obsidian-list-callouts,List Callouts,mgmeyers/obsidian-list-callouts,138261,2024-09-08,23.8,false,GPL-3.0,65,494
+obsidian42-strange-new-worlds,Strange New Worlds,tfthacker/obsidian42-strange-new-worlds,135980,2026-08-12,0.7,false,MIT,33,580
+chatgpt-md,ChatGPT MD,bramses/chatgpt-md,135420,2026-08-31,0.0,false,MIT,29,1442
+obsidian-image-auto-upload-plugin,Image auto upload,renmu123/obsidian-image-auto-upload-plugin,135261,2024-11-28,21.1,false,MIT,78,473
+juggl,Juggl,hemile/juggl,135100,2025-02-27,18.1,false,GPL-3.0,64,821
+obsidian-read-it-later,ReadItLater,dominikpieper/obsidian-ReadItLater,134778,2026-06-30,2.1,false,MIT,28,651
+lazy-plugins,Lazy Loader,alangrainger/obsidian-lazy-plugins,134675,2026-05-31,3.1,false,MIT,8,450
+rss-dashboard,RSS Dashboard,amatya-aditya/obsidian-rss-dashboard,134276,2026-08-31,0.0,false,MIT,11,662
+obsidian-omnivore,Omnivore,omnivore-app/obsidian-omnivore,133123,2024-11-21,21.3,false,MIT,95,874
+waypoint,Waypoint,idreesinc/Waypoint,130310,2025-12-29,8.1,false,MPL-2.0,87,862
+obsidian-image-toolkit,Image Toolkit,obsidian-community/obsidian-image-toolkit,129802,2025-09-01,12.0,false,MIT,19,74
+fast-note-sync,Fast Note Sync,haierkeys/obsidian-fast-note-sync,127347,2026-08-14,0.6,false,Apache-2.0,76,2921
+journals,Journals,srg-kostyrko/obsidian-journal,124662,2026-09-01,0.0,false,MIT,29,386
+obsidian-markdown-formatting-assistant-plugin,Markdown Formatting Assistant,reocin/obsidian-markdown-formatting-assistant-plugin,122182,2024-09-08,23.8,false,NONE,52,284
+obsidian-mindmap-nextgen,Mindmap NextGen,james-tindal/obsidian-mindmap-nextgen,120800,2026-05-22,3.4,false,NONE,72,402
+markdown-table-editor,Markdown Table Editor,ganesshkumar/obsidian-table-editor,120253,2024-06-20,26.4,false,MIT,24,250
+auto-note-mover,Auto Note Mover,farux/obsidian-auto-note-mover,118276,2023-10-25,34.2,false,MIT,65,417
+surfing,Surfing,pkm-er/Obsidian-Surfing,116700,2024-11-09,21.7,false,MIT,113,577
+simple-canvasearch,Simple CanvaSearch,ddalexb/obsidian-simple-canvasearch,113913,2025-05-19,15.4,false,Apache-2.0,2,37
+cm-typewriter-scroll-obsidian,Typewriter Scroll,deathau/cm-typewriter-scroll-obsidian,113141,2024-02-23,30.3,false,NONE,45,214
+multi-properties,Multi Properties,technohiker/obsidian-multi-properties,112807,2026-08-30,0.1,false,MIT,13,296
+obsidian-zoom,Zoom,vslinko/obsidian-zoom,111909,2023-05-04,39.9,false,MIT,17,276
+obsidian-contextual-typography,Contextual Typography,mgmeyers/obsidian-contextual-typography,111861,2024-06-16,26.5,false,GPL-3.0,8,199
+obsidian-extract-pdf-highlights,PDF Highlights,akaalias/obsidian-extract-pdf-highlights,111531,2022-06-05,50.9,false,NONE,21,241
+harper,Harper,automattic/harper-obsidian-plugin,111525,2026-08-17,0.5,false,Apache-2.0,1,157
+obsidian-relative-line-numbers,Relative Line Numbers,nadavspi/obsidian-relative-line-numbers,110879,2024-06-16,26.5,false,NONE,17,219
+obsidian-reading-time,Reading Time,avr/obsidian-reading-time,109925,2024-09-10,23.7,false,MIT,6,77
+share-note,Share Note,alangrainger/share-note,109870,2026-06-15,2.6,false,MIT,30,712
+calendar-bases,Calendar Bases,edrickleong/obsidian-calendar-bases,109146,2026-04-06,4.9,false,MIT,25,181
+obsidian-icons-plugin,Icons,visini/obsidian-icons-plugin,109124,2021-04-26,64.2,false,NONE,23,227
+docxer,Docxer,developer-mike/obsidian-docxer,108087,2026-05-21,3.4,false,GPL-3.0,2,141
+convert-url-to-iframe,Convert url to preview (iframe),fhachez/obsidian-convert-url-to-iframe,107177,2023-01-06,43.8,false,NONE,22,210
+obsidian-link-embed,Link Embed,seraphli/obsidian-link-embed,105813,2025-12-18,8.4,false,MIT,10,252
+typewriter-mode,Typewriter Mode,davisriedel/obsidian-typewriter-mode,102115,2026-08-28,0.1,false,MIT,23,263
+obsidian-custom-attachment-location,Custom Attachment Location,mnaoumov/obsidian-custom-attachment-location,101255,2026-09-01,0.0,false,MIT,11,152
+actions-uri,Actions URI,czottmann/obsidian-actions-uri,100870,2026-05-29,3.1,false,MIT,7,202
+hotkeysplus-obsidian,Hotkeys++,argenos/hotkeysplus-obsidian,99123,2021-12-08,56.8,false,NONE,13,137
+local-gpt,Local GPT,pfrankov/obsidian-local-gpt,97095,2026-05-02,4.0,false,MIT,0,676
+yolo,YOLO,lapis0x0/obsidian-yolo,95931,2026-09-01,0.0,false,MIT,24,1336
+obsidian-chartsview-plugin,Charts View,caronchen/obsidian-chartsview-plugin,94558,2025-12-08,8.8,false,MIT,15,302
+number-headings-obsidian,Number Headings,onlyafly/number-headings-obsidian,93374,2024-06-15,26.5,false,MIT,42,155
+obsidian-shellcommands,Shell commands,taitava/obsidian-shellcommands,92738,2025-01-01,20.0,false,GPL-3.0,18,523
+file-explorer-plus,File Explorer++,kelszo/obsidian-file-explorer-plus,92260,2025-04-20,16.4,false,AGPL-3.0,30,105
+obsidian-timeline,Timeline,george-debug/obsidian-timeline,92084,2022-07-26,49.2,false,MIT,29,410
+tldraw,tldraw,tldraw/obsidian-plugin,91863,2026-08-18,0.5,false,Apache-2.0,70,446
+obsidian-html-plugin,HTML Reader,nuthrash/obsidian-html-plugin,91523,2026-09-01,0.0,false,MIT,3,218
+obsidian-columns,Columns,tnichols217/obsidian-columns,90762,2024-11-30,21.0,false,GPL-3.0,28,299
+file-cleaner-redux,File Cleaner Redux,husjon/obsidian-file-cleaner-redux,89869,2026-08-13,0.6,false,MIT,15,104
+flexplorer,Flexplorer,kh4f/flexplorer,88944,2026-07-15,1.6,false,MIT,14,206
+hotkey-helper,Hotkey Helper,pjeby/hotkey-helper,88614,2026-07-05,1.9,false,NONE,5,139
+digitalgarden,Digital Garden,oleeskild/obsidian-digital-garden,88394,2026-08-30,0.1,false,MIT,213,2484
+local-backup,Local Backup,velviagris/obsidian-local-backup,87204,2026-07-22,1.3,false,MIT,26,180
+zoottelkeeper-obsidian-plugin,Zoottelkeeper Plugin,akosbalasko/zoottelkeeper-obsidian-plugin,86990,2023-12-22,32.3,false,NONE,42,232
+obsidian-pandoc-reference-list,Pandoc Reference List,obsidian-community/obsidian-pandoc-reference-list,86986,2026-03-06,5.9,false,GPL-3.0,92,273
+cycle-through-panes,Tab Switcher,vinzent03/tab-switcher,86298,2026-08-17,0.5,false,GPL-3.0,4,178
+obsidian-completr,Completr,tth05/obsidian-completr,85379,2024-06-03,26.9,false,MIT,42,395
+excel,Excel,ljcoder2015/obsidian-excel,85309,2024-06-04,26.9,false,GPL-3.0,20,166
+editor-width-slider,Editor Width Slider,mugishomp/obsidian-editor-width-slider,85135,2024-06-09,26.7,false,MIT,16,146
+css-editor,CSS Editor,zachatoo/obsidian-css-editor,84160,2026-06-28,2.1,false,MIT,15,114
+smart-random-note,Smart Random Note,erichalldev/obsidian-smart-random-note,83826,2023-03-28,41.2,false,NONE,22,129
+fast-text-color,Fast Text Color,superschnizel/obsidian-fast-text-color,83568,2026-08-08,0.8,false,GPL-3.0,24,121
+any-block,AnyBlock,any-block/any-block,82787,2026-08-28,0.1,false,AGPL-3.0,20,558
+vertical-tabs,Vertical Tabs,oxdc/obsidian-vertical-tabs,81936,2026-07-20,1.4,false,MIT,4,611
+workspaces-plus,Workspaces Plus,jsmorabito/obsidian-workspaces-plus,81254,2026-08-28,0.1,false,GPL-3.0,71,245
+dragger,Dragger,ariestar/obsidian-dragger,79888,2026-08-25,0.2,false,MIT,23,276
+attachment-management,Attachment Management,trganda/obsidian-attachment-management,79473,2026-05-26,3.2,false,MIT,88,312
+copy-url-in-preview,Image Context Menus,nomarcub/obsidian-copy-url-in-preview,78726,2026-08-24,0.3,false,MIT,8,103
+auto-card-link,Auto Card Link,nekoshita/obsidian-auto-card-link,78293,2024-03-29,29.1,false,MIT,43,321
+obsidian-import-json,JSON-CSV Importer,farling42/obsidian-import-json,77659,2026-07-07,1.8,false,MIT,7,125
+update-time-on-edit,Update time on edit,beaussan/update-time-on-edit-obsidian,76496,2024-01-11,31.7,false,MIT,42,218
+home-tab,Home tab,olrenso/obsidian-home-tab,76452,2024-10-20,22.4,false,MIT,50,371
+links,Links,mii-key/obsidian-links,76163,2026-03-12,5.7,false,MIT,21,138
+obsidian-clipper,Clipper,jgchristopher/obsidian-clipper,74863,2025-07-13,13.6,false,MIT,14,300
+obsidian-view-mode-by-frontmatter,Force note view mode,bwydoogh/obsidian-force-view-mode-of-note,74861,2023-12-07,32.8,false,NONE,10,194
+claude-sidebar,Claude Sidebar,derek-larson14/obsidian-claude-sidebar,74163,2026-09-01,0.0,false,MIT,1,445
+translate,Translate,fevol/obsidian-translate,73814,2024-07-02,26.0,false,MIT,38,154
+tasks-calendar-wrapper,Tasks Calendar Wrapper,leonezz/obsidian-tasks-calendar-wrapper,73612,2026-06-13,2.6,false,MIT,68,257
+gemini-scribe,Gemini Scribe,allenhutchison/obsidian-gemini,73521,2026-09-01,0.0,false,MIT,37,520
+obsidian-focus-mode,Focus Mode,ryanpcmcquen/obsidian-focus-mode,72055,2026-08-23,0.3,false,MPL-2.0,1,80
+dynamic-views,Dynamic Views,churnish/dynamic-views,72024,2026-08-31,0.0,false,GPL-3.0,172,221
+table-extended,Table Extended,aidenlx/table-extended,72020,2022-01-16,55.5,false,NONE,32,219
+flashcards-obsidian,Flashcards,reuseman/flashcards-obsidian,71815,2023-10-08,34.8,false,MIT,112,1082
+3d-graph,3D Graph,alexw00/obsidian-3d-graph,71426,2023-10-24,34.3,false,MIT,28,387
+snipd-official,Snipd Official,snipd-app/snipd-obsidian,71015,2026-05-14,3.6,false,MIT,15,52
+zotlit,ZotLit,aidenlx/zotlit,70850,2026-08-31,0.0,false,AGPL-3.0,25,1006
+obsidian-copy-block-link,Copy Block Link,mgmeyers/obsidian-copy-block-link,70567,2024-06-07,26.8,false,GPL-3.0,26,236
+charted-roots,Charted Roots,banisterious/obsidian-charted-roots,70350,2026-08-14,0.6,false,MIT,92,164
+obsidian-media-db-plugin,Media DB,mprojectscode/obsidian-media-db-plugin,69851,2026-08-25,0.2,false,GPL-3.0,49,486
+cm-chs-patch,Simplified Chinese Word Splitting,aidenlx/cm-chs-patch,69841,2026-06-20,2.4,false,MIT,1,251
+custom-font-loader,Custom Font Loader,pourmand1376/obsidian-custom-font,69717,2026-08-30,0.1,false,MIT,5,121
+customjs,CustomJS,saml-dev/obsidian-custom-js,69578,2025-10-04,10.9,false,MIT,1,386
+better-pdf-plugin,Better PDF Plugin,mszturc/obsidian-better-pdf-plugin,69422,2023-09-10,35.7,false,NONE,21,218
+obsidian-front-matter-title-plugin,Front Matter Title,snezhig/obsidian-front-matter-title,69299,2026-08-28,0.1,false,GPL-3.0,7,372
+modalforms,Modal forms,danielo515/obsidian-modal-form,68958,2026-08-27,0.2,false,MIT,112,388
+obsidian-filename-heading-sync,Filename Heading Sync,dvcrn/obsidian-filename-heading-sync,68950,2026-08-29,0.1,false,NONE,33,206
+numerals,Numerals,gtg922r/obsidian-numerals,68943,2026-07-18,1.5,false,MIT,42,642
+extended-graph,Extended Graph,elsatam/obsidian-extended-graph,68848,2026-02-13,6.6,false,NOASSERTION,47,231
+task-board,Task Board,tu2-atmanand/Task-Board,68840,2026-06-15,2.6,false,GPL-3.0,222,453
+chronology,Chronology,canna71/obsidian-chronology,68449,2026-05-03,4.0,false,NOASSERTION,23,147
+remotely-secure,Remotely Sync,sboesen/remotely-sync,68297,2024-05-04,27.9,false,Apache-2.0,47,280
+slash-commander,Slash Commander,alephpiece/obsidian-slash-commander,68214,2026-08-03,1.0,false,MIT,11,111
+code-emitter,Code Emitter,mokeyish/obsidian-code-emitter,67223,2024-12-12,20.6,false,GPL-3.0,47,388
+obsidian-sort-and-permute-lines,Sort and Permute lines,vinzent03/obsidian-sort-and-permute-lines,67008,2026-07-16,1.5,false,MIT,17,125
+obsidian-underline,Underline,benature/obsidian-underline,66739,2024-03-18,29.5,false,MIT,7,81
+obsidian-mkdocs-publisher,Enveloppe,enveloppe/obsidian-enveloppe,66575,2026-07-31,1.1,false,Apache-2.0,10,909
+zoom-map,TTRPG Tools - Maps,jareika/zoom-map,66263,2026-08-16,0.5,false,MIT,2,51
+big-calendar,Big Calendar,quorafind/Obsidian-Big-Calendar,65913,2025-03-11,17.7,false,MIT,18,144
+obsidian-statusbar-pomo,Status Bar Pomodoro Timer,kzhovn/statusbar-pomo-obsidian,65734,2025-01-21,19.3,false,MIT,17,98
+global-search-and-replace,Global Search and Replace,mahmoudfawzykhalil/obsidian-global-search-and-replace,65734,2024-06-03,26.9,false,AGPL-3.0,12,111
+codeblock-customizer,Codeblock Customizer,mugiwara85/CodeblockCustomizer,65671,2026-05-17,3.5,false,MIT,17,350
+obsidian-export-image,Export Image plugin,zhouhua/obsidian-export-image,65355,2025-04-23,16.3,false,MIT,45,221
+obsidian-collapse-all-plugin,Collapse All,nathonius/obsidian-collapse-all,65034,2024-03-23,29.3,false,MIT,7,100
+smart-second-brain,Smart Second Brain,s2b-dev/smart-second-brain,64790,2026-09-01,0.0,false,MIT,42,1216
+review-obsidian,Review,ryanjamurphy/review-obsidian,64739,2024-12-10,20.7,false,NONE,18,163
+obsidian-trash-explorer,Trash Explorer,proog/obsidian-trash-explorer,64720,2026-01-10,7.7,false,MIT,12,72
+podnotes,PodNotes,chhoumann/PodNotes,64116,2026-08-27,0.2,false,MIT,1,264
+beautitab,Beautitab,andrewmcgivery/obsidian-beautitab,64060,2024-07-29,25.1,false,MIT,37,200
+link-favicon,Link Favicons,joethei/obsidian-link-favicon,64030,2026-05-12,3.7,false,GPL-3.0,27,119
+time-ruler,Time Ruler,j-palindrome/obsidian-time-ruler,63955,2026-06-18,2.5,false,MIT,12,350
+js-engine,JS Engine,mprojectscode/obsidian-js-engine-plugin,63901,2026-06-16,2.5,false,GPL-3.0,14,191
+vscode-editor,VSCode Editor,sunxvming/obsidian-vscode-editor,62645,2025-11-25,9.2,false,MIT,52,324
+password-protection,Password Protection,qing3962/password-protection,62558,2026-08-25,0.2,false,MIT,12,72
+aprils-automatic-timelines,April Automatic Timelines,april-gras/obsidian-auto-timelines,62507,2026-06-18,2.5,false,MIT,34,214
+obsidian-table-generator,Table Generator,quorafind/Obsidian-Table-Generator,62409,2023-08-25,36.2,false,GPL-3.0,0,119
+obsidian-icon-shortcodes,Icon Shortcodes,aidenlx/obsidian-icon-shortcodes,62132,2023-10-03,35.0,false,MIT,54,173
+project-manager,Project Manager,dotpm/obsidian-pm,61765,2026-08-31,0.0,false,MIT,62,654
+fit,Fit,joshuakto/fit,61623,2026-08-21,0.4,false,MIT,13,292
+image-captions,Image Captions,alangrainger/obsidian-image-captions,61602,2026-08-30,0.1,false,GPL-3.0,24,168
+obsidian-imgur-plugin,Imgur,gavvvr/obsidian-imgur-plugin,61267,2025-02-28,18.1,false,MIT,32,260
+sheets,Sheets Extended,niconekoru/obsidan-advanced-table-xt,60419,2026-06-16,2.5,false,Apache-2.0,13,178
+contribution-graph,Contribution Graph,vran-dev/obsidian-contribution-graph,59947,2024-10-13,22.6,false,Apache-2.0,48,456
+language-translator,Language Translator,twentytwokhz/language-translator,59779,2026-06-14,2.6,false,MIT,2,53
+obsidian-epub-plugin,ePub Reader,caronchen/obsidian-epub-plugin,59642,2026-07-28,1.1,false,MIT,14,132
+obsidian-latex,Extended MathJax,wei2912/obsidian-latex,59345,2025-09-14,11.6,false,MIT,19,189
+obsidian-bible-reference,Bible Reference,tim-hub/obsidian-bible-reference,59154,2026-08-07,0.8,false,MIT,3,342
+obsidian-tikzjax,TikZJax,artisticat1/obsidian-tikzjax,58912,2024-07-13,25.6,false,MIT,93,696
+janitor,Janitor,canna71/obsidian-janitor,58867,2026-05-03,4.0,false,NOASSERTION,24,134
+smart-lookup,Smart Lookup,brianpetro/smart-lookup-obsidian,58842,2026-08-21,0.4,false,NOASSERTION,1,9
+pomodoro-timer,Pomodoro Timer,eatgrass/obsidian-pomodoro-timer,58340,2024-06-20,26.4,false,MIT,40,240
+recipe-view,Recipe view,lachsh/obsidian-recipe-view,58284,2024-05-05,27.9,false,MIT,32,181
+maps,Maps,obsidianmd/obsidian-maps,58215,2026-08-03,1.0,false,MIT,40,516
+completed-task-display,Completed Task Display,heliostatic/completed-task-display,57761,2026-08-18,0.5,false,MIT,15,45
+markdown-prettifier,Markdown prettifier,cristianvasquez/obsidian-prettify,57349,2022-01-28,55.1,false,GPL-3.0,34,137
+ninja-cursor,Ninja Cursor,vrtmrz/ninja-cursor,57251,2026-06-17,2.5,false,MIT,10,73
+hot-reload,Hot Reload,pjeby/hot-reload,56752,2026-07-06,1.9,false,ISC,3,967
+open-tab-settings,Open Tab Settings,jesse-r-s-hines/obsidian-open-tab-settings,56098,2026-08-30,0.1,false,MIT,0,144
+ai-providers,AI Providers,pfrankov/obsidian-ai-providers,55992,2026-05-26,3.2,false,MIT,0,130
+frontmatter-modified-date,Update modified date,alangrainger/obsidian-frontmatter-modified-date,55905,2026-05-27,3.2,false,MIT,7,172
+chronos,Chronos Timeline,clairefro/obsidian-plugin-chronos,55673,2026-05-20,3.4,false,MIT,68,374
+whisper,Whisper,nikdanilov/whisper-obsidian-plugin,55242,2026-04-07,4.8,false,MIT,15,376
+marp-slides,Marp Slides,samuele-cozzi/obsidian-marp-slides,54308,2026-04-11,4.7,false,MIT,33,266
+obsidian-rtl,RTL Support,esm7/obsidian-rtl,54289,2025-07-07,13.8,false,MIT,35,153
+lean-terminal,Lean Terminal,sdkasper/lean-obsidian-terminal,54104,2026-07-19,1.4,false,MIT,4,129
+open-gate,Open Gate,nguyenvanduocit/obsidian-open-gate,53645,2026-04-22,4.3,false,MIT,4,235
+colored-tags-wrangler,Colored Tags Wrangler,code-of-chaos/ColoredTagsWrangler.obmd,53371,2026-08-12,0.7,false,GPL-3.0,33,90
+khoj,Khoj,khoj-ai/khoj,53321,2026-08-02,1.0,false,AGPL-3.0,147,36866
+obsidian-editor-shortcuts,Code Editor Shortcuts,timhor/obsidian-editor-shortcuts,53250,2026-07-12,1.7,false,MIT,29,449
+taskchute-plus,TaskChute Plus,hiroyaiizuka/taskchute-for-obsidian,53035,2026-09-01,0.0,false,MIT,9,52
+obsidian-file-link,Better File Link,marcjulianschwarz/obsidian-file-link,52972,2026-04-06,4.9,false,MIT,4,145
+handwritten-notes,Handwritten Notes,fbarrca/obsidian-handwritten-notes,52730,2026-07-28,1.1,false,MIT,10,291
+copy-as-html,Copy as HTML,jenningsb2/copy-as-html,52626,2024-04-23,28.3,false,NONE,16,50
+ytranscript,YTranscript,lstrzepek/obsidian-yt-transcript,52625,2026-05-13,3.6,false,MIT,24,188
+obisidian-note-linker,Note Linker,alexw00/obsidian-note-linker,52255,2025-12-07,8.8,false,MIT,46,284
+obsidian-douban-plugin,Douban,wanxp/obsidian-douban,52160,2026-08-17,0.5,false,GPL-3.0,28,271
+float-search,Floating Search,quorafind/Obsidian-Float-Search,52027,2026-03-23,5.3,false,GPL-3.0,17,184
+bmo-chatbot,BMO Chatbot,longy2k/obsidian-bmo-chatbot,51724,2024-09-12,23.6,false,MIT,54,532
+obsidian-markdown-export-plugin,markdown export,bingryan/obsidian-markdown-export-plugin,51454,2026-08-30,0.1,false,NONE,22,124
+obsidian-version-history-diff,Version History Diff,kometenstaub/obsidian-version-history-diff,51144,2026-07-14,1.6,false,MIT,20,164
+periodic-para,LifeOS,quanru/obsidian-lifeos,51086,2026-06-01,3.0,false,MIT,1,581
+fantasy-content-generator,Fantasy Content Generator,gregory-jagermeister/Fantasy-Content-Generator,50963,2025-01-12,19.6,false,GPL-3.0,4,53
+file-order,File Order,lukasbach/obsidian-file-order,50204,2026-02-20,6.3,false,MIT,14,96
+gridexplorer,GridExplorer,devon22/obsidian-gridexplorer,49992,2026-08-12,0.7,false,MIT,8,85
+github-sync,GitHub Sync,kevinmkchin/Obsidian-GitHub-Sync,49911,2026-04-28,4.1,false,MIT,19,382
+drawio,draw.io,somesanity/draw-io-obsidian,49502,2026-06-25,2.2,false,GPL-3.0,10,152
+new-tab-default-page,Default New Tab Page,chrisgrieser/new-tab-default-page,49386,2026-08-03,1.0,false,MIT,10,63
+text-snippets-obsidian,Text Snippets,arianakhit/text-snippets-obsidian,49215,2023-05-04,39.9,false,NONE,40,211
+telegram-sync,Telegram Sync,soberhacker/obsidian-telegram-sync,49170,2024-10-30,22.0,false,AGPL-3.0,41,676
+OA-file-hider,File Hider,eldritch-oliver/file-hider,48971,2024-08-19,24.4,false,MIT,19,80
+obsidian-math-plus,Math+,ocapraro/obsidian-math-plus,48726,2024-01-27,31.1,false,MIT,9,101
+better-search-views,Better Search Views,ivan-lednev/better-search-views,48649,2024-12-01,21.0,false,MIT,48,361
+typing-assistant,Typing Assistant,jambo2018/notion-assistant-plugin,48268,2026-01-18,7.4,false,MIT,6,63
+open-vscode,Open vault in VS Code,nomarcub/obsidian-open-vscode,48201,2026-08-02,1.0,false,MIT,3,129
+obsidian-vault-statistics-plugin,Vault Statistics,bkyle/obsidian-vault-statistics-plugin,47927,2022-11-26,45.2,false,NONE,12,94
+tars,Tars,tarslab/obsidian-tars,47806,2026-08-28,0.1,false,MIT,2,324
+hi-note,HiNote,catmuse/HiNote,47343,2026-08-07,0.8,false,MIT,40,256
+rpg-manager,RPG Manager,carlonicora/obsidian-rpg-manager,47196,2025-12-16,8.5,false,MIT,36,244
+symbols-prettifier,Symbols Prettifier,florianwoelki/obsidian-symbols-prettifier,47151,2026-07-13,1.6,false,MIT,4,56
+obsidian-timestamper,TimeStamper,gru80/obsidian-timestamper,46578,2023-07-04,37.9,false,MIT,13,82
+obsidian-tts,Text to Speech,joethei/obsidian-tts,46509,2025-12-18,8.4,false,GPL-3.0,21,123
+syncthing-integration,Syncthing Integration,lbf38/obsidian-syncthing-integration,46397,2026-08-31,0.0,false,MIT,37,355
+heatmap-tracker,Heatmap Tracker,mokkiebear/heatmap-tracker,46263,2026-09-01,0.0,false,Apache-2.0,23,230
+obsidian-fullscreen-plugin,Fullscreen mode plugin,razumihin/obsidian-fullscreen-plugin,45990,2022-01-08,55.7,false,MIT,10,42
+languagetool,LanguageTool,wrenger/obsidian-languagetool,45780,2026-08-23,0.3,false,AGPL-3.0,14,84
+obsidian-diagrams-net,Diagrams.net,jensmtg/obsidian-diagrams-net,45275,2024-08-12,24.6,false,MIT,23,121
+persistent-graph,Persistent Graph,sanqui/obsidian-persistent-graph,45236,2026-05-24,3.3,false,MIT,8,146
+github-copilot,GitHub Copilot,pierrad/obsidian-github-copilot,45038,2026-05-03,4.0,false,Apache-2.0,24,496
+markwhen,Markwhen,mark-when/obsidian-plugin,44731,2026-05-15,3.6,false,MIT,59,438
+creases,Creases,liamcain/obsidian-creases,44457,2026-05-12,3.7,false,MIT,42,294
+obsidian-jira-issue,Jira Issue,obsidian-jira-plugin/obsidian-jira-issue,44359,2026-08-28,0.1,false,AGPL-3.0,3,3
+obsidian-local-images,Local images,aleksey-rezvov/obsidian-local-images,44354,2023-04-23,40.3,false,MIT,46,360
+tray,Tray,dragonwocky/obsidian-tray,44251,2025-10-19,10.4,false,MIT,45,327
+open-in-new-tab,Open In New Tab,patleeman/obsidian-open-in-new-tab,44006,2023-04-15,40.6,false,MIT,12,133
+obsidian-plugin-groups,Plugin Groups,mocca101/obsidian-plugin-groups,43734,2024-10-23,22.3,false,MIT,21,157
+print,Print,marijnbent/obsidian-print,43557,2026-08-29,0.1,false,MIT,1,103
+slides-extended,Slides Extended,ebullient/obsidian-slides-extended,43494,2026-08-31,0.0,false,MIT,15,271
+hide-folders,Hide Folders,jonasdoesthings/obsidian-hide-folders,42681,2026-06-02,3.0,false,MIT,6,72
+map-of-content,Map of Content,robin-haupt-1/Obsidian-Map-of-Content,42670,2023-09-23,35.3,false,GPL-3.0,63,181
+simple-time-tracker,Super Simple Time Tracker,ellpeck/ObsidianSimpleTimeTracker,42648,2026-08-07,0.8,false,MIT,29,198
+daily-notes-editor,Daily Notes Editor,quorafind/Obsidian-Daily-Notes-Editor,42174,2025-04-05,16.9,false,NONE,14,277
+fileorganizer2000,Note Companion,nexus-jpf/note-companion,42154,2026-08-31,0.0,false,MIT,1,859
+obsidian-task-collector,Task Collector,ebullient/obsidian-task-collector,41867,2026-08-31,0.0,false,MIT,6,241
+obsidian-better-command-palette,Better Command Palette,alexbieg/obsidian-better-command-palette,41781,2023-11-29,33.1,false,MIT,47,184
+featured-image,Featured Image,johansan/obsidian-featured-image,41517,2026-07-13,1.6,false,MIT,0,121
+ai-image-analyzer,AI image analyzer,swaggeroo/obsidian-ai-image-analyzer,41375,2026-08-31,0.0,false,GPL-3.0,16,178
+karpathywiki,Karpathy LLM Wiki,green-dalii/obsidian-llm-wiki,41351,2026-08-31,0.0,false,Apache-2.0,32,548
+spreadsheets,Spreadsheets,divamgupta/obsidian-spreadsheets,41319,2024-02-24,30.2,false,MIT,28,185
+copy-document-as-html,Copy document as HTML,mvdkwast/obsidian-copy-as-html,41062,2026-02-02,6.9,false,MIT,17,81
+find-orphaned-images,Find Orphaned Images,josmarcristello/Obsidian-Find-Orphaned-Images,40846,2026-07-15,1.6,false,GPL-3.0,1,21
+epub-importer,Epub Importer,aoout/obsidian-epub-importer,40521,2026-07-23,1.3,false,MIT,8,243
+auto-template-trigger,Auto Template Trigger,numeroflip/obsidian-auto-template-trigger,40514,2025-07-28,13.1,false,MIT,7,66
+task-list-kanban,Task List Kanban,erikars/task-list-kanban,40475,2026-07-25,1.2,false,MIT,22,107
+theme-picker,Theme Picker,trey-sedate/obsidian-theme-picker,40349,2022-10-15,46.6,false,MIT,4,43
+mehrmaid,Mehrmaid,huterguier/obsidian-mehrmaid,40260,2025-10-12,10.6,false,MIT,13,64
+smart-chatgpt,Smart Chat,brianpetro/smart-chatgpt-obsidian,40221,2026-08-05,0.9,false,NOASSERTION,7,30
+note-gallery,Note Gallery,pashashocky/obsidian-note-gallery,40116,2024-11-24,21.2,false,GPL-3.0,34,250
+2hop-links-plus,2Hop Links Plus,l7cy/obsidian-2hop-links-plus,40093,2024-07-14,25.6,false,NOASSERTION,20,88
+obsidian-rewarder,Rewarder,gnopps/obsidian-rewarder,39669,2023-12-25,32.2,false,GPL-3.0,6,56
+mysnippets-plugin,MySnippets,chetachiezikeuzor/MySnippets-Plugin,39579,2024-04-24,28.3,false,MPL-2.0,20,193
+feed-bases,Feed Bases,edrickleong/obsidian-feed-bases,39386,2026-04-09,4.8,false,MIT,13,184
+obsidian-heading-shifter,Heading Shifter,k4a-l/obsidian-heading-shifter,39314,2026-08-26,0.2,false,MIT,0,110
+operon,Operon,hasanyilmaz/operon,39231,2026-08-31,0.0,false,GPL-3.0,10,192
+full-calendar-remastered,Full Calendar Remastered,obsidian-full-calendar-remastered/plugin-full-calendar,39218,2026-08-29,0.1,false,GPL-3.0,25,163
+life-tracker,Life Tracker,dsebastien/obsidian-life-tracker-base-view,39063,2026-08-31,0.0,false,MIT,20,240
+obsidian-image-gallery,Image Gallery,lucaorio/obsidian-image-gallery,38941,2023-06-06,38.9,false,MIT,31,271
+mrj-text-expand,Text expand,mrjackphil/obsidian-text-expand,38907,2025-04-04,16.9,false,NONE,27,194
+tabs,Markdown Tabs,xhuajin/obsidian-tabs,38582,2026-07-17,1.5,false,MIT,47,188
+lapel,Lapel,liamcain/obsidian-lapel,38387,2026-05-12,3.7,false,MIT,11,147
+obsidian-autocomplete-plugin,Autocomplete,yeboster/autocomplete-obsidian,38314,2023-05-14,39.6,false,MIT,24,149
+gpt3-notes,GPT-3 Notes,micahke/obsidian-gpt3-notes,38142,2023-11-10,33.7,false,MIT,6,169
+dynamic-outline,Dynamic Outline,theopavlove/obsidian-dynamic-outline,38079,2025-11-16,9.5,false,MIT,18,101
+image-window,Second Window,javalent/second-window,38057,2024-08-30,24.0,false,MIT,6,43
+unitade,UNITADE.md,falcion/UNITADE.md,37979,2026-08-14,0.6,false,MIT,14,150
+color-folders-files,Color Folders and Files,mithadon/obsidian-color-folders-files,37931,2024-12-12,20.6,false,MIT,7,48
+obsidian-show-file-path,Show Current File Path,ravimashru/obsidian-show-file-path,37919,2021-10-13,58.6,false,NONE,4,53
+voice,Voice,chrisurf/obsidian-voice,37599,2026-08-20,0.4,false,MIT,8,81
