@@ -4,7 +4,7 @@
 
 Everyone knows some extensions are unmaintained. Nobody had put a number on it, so I measured it — and then measured the thing that actually matters, which is what happens to the users afterwards.
 
-Short version: **59.5% of the top 2,499 VS Code extensions have shipped nothing in two years**, and those extensions account for **1.54 billion installs**. When someone forks an abandoned extension to rescue it, they typically inherit **0.1%** of its users — unless the original author points at them, in which case the fork can overtake the original entirely.
+Short version: **59.5% of the top 2,499 VS Code extensions have shipped nothing in two years**, and those extensions account for **1.54 billion installs**. And across **223 officially deprecated extensions**, whether users end up on the replacement turns almost entirely on one thing: whether the original author set a pointer to it.
 
 All data in [`data/`](data/) as CSV. Method and limitations at the bottom. Reproduce or correct anything you like.
 
@@ -75,27 +75,40 @@ The last one is worth dwelling on: **4 million installs, untouched for nine and 
 
 If you maintain something and ever intend to walk away, **adding a LICENSE file is the single highest-leverage thing you can do for your users.** It costs one commit and it is the difference between someone being able to rescue your work and not.
 
-## 4. The finding that surprised me: rescues almost never work
+## 4. When an author points at a replacement, users follow. When nobody does, they don't.
 
-This is the part I had not seen measured anywhere, and it changed my conclusions.
+This began as three case studies. It is now a systematic measurement, and the systematic version **corrected my first conclusion** — the original text is preserved in git history.
 
-The intuitive model is that a maintained fork inherits the abandoned original's users. It does not. Capture rate — the fork's installs as a share of the original's:
+VS Code publishes a [control manifest](https://main.vscode-cdn.net/extensions/marketplace.json) listing every officially deprecated extension. It contains **507 deprecations, 339 naming a specific replacement extension.** Of those, 223 have an original with 1,000+ installs and both sides resolvable — a real sample rather than anecdotes.
 
-| Original → replacement | Original | Replacement | Capture |
+**Capture rate** = the replacement's installs as a share of the deprecated original's.
+
+| Group | n | Median capture | Left below 10% |
 |---|---:|---:|---:|
-| `calendar` → `calendar-plus` *(independent alternative)* | 3,059,654 | 4,221 | **0.1%** |
-| `obsidian-full-calendar` → `full-calendar-remastered` *(community handover)* | 457,141 | 39,218 | **8.6%** |
-| `liximomo.sftp` → `Natizyskunk.sftp` *(original author linked the fork)* | 1,351,026 | 1,527,565 | **113%** |
+| Same publisher (a true successor product) | 56 | **128.1%** | 2% |
+| Different publisher, comparable scale | 122 | **125.6%** | 10% |
+| *Different publisher, replacement >10× original* | *45* | *5208.5%* | *0%* |
+| All pairs | 223 | 184.4% | 6% |
 
-The three cases differ by nearly four orders of magnitude, and the variable is not code quality, marketing, or marketplace listing. `calendar-plus` is actively maintained with weekly commits and is properly listed in the directory. It has 0.1%.
+**I excluded that third group from the conclusion.** Those are cases where the named replacement is a large product that existed independently — `vscodeintellicode` → `github.copilot-chat`, `jshint` → `eslint`, `donjayamanne.jupyter` → `ms-toolsai.jupyter`. Copilot Chat's 78 million installs are not IntelliCode users migrating. Including them would inflate the headline into meaninglessness.
 
-**What separates them is whether the original points at the replacement.** `liximomo` deprecated their extension and linked Natizyskunk's fork; that fork now has *more* installs than the original ever did. The community handover got 8.6%. The independent rescue, with no relationship to the original, got 0.1%.
+On the 178 pairs that survive, the median replacement ends up with **slightly more lifetime installs than the extension it replaced**, and only about one in ten leaves users stranded.
 
-Two consequences:
+**Contrast that with the no-pointer case.** `calendar-plus` is an actively maintained alternative to an Obsidian plugin that has been dead four years, with weekly commits and a proper directory listing — and no relationship to the original. It has **4,221 installs against the original's 3,059,654: 0.1%.**
 
-**For users:** you are almost certainly still running abandoned extensions, and the maintained alternative — if one exists — is probably invisible to you. VS Code can guide you to a replacement, but only when the original author has explicitly set one, which almost none have. See §6.
+So the finding, stated carefully:
 
-**For anyone considering a rescue fork:** your fork's reach is determined almost entirely by whether you can get the original author to acknowledge it. Ask them *first*. If they are unreachable, expect 0.1%, and decide whether the work is still worth doing on those terms. It might be — but go in knowing the number.
+> An official deprecation pointer is associated with users ending up on the replacement. Its absence is associated with the replacement being invisible. The gap between the two is roughly three orders of magnitude.
+
+**What I originally wrote here was that rescue forks capture ~0.1% and that this is typical.** That was wrong, and wrong in an important way. 0.1% is what happens *without* a pointer — and I have exactly one clean measurement of that case, against 178 of the pointer case. The direction is well evidenced; the no-pointer side is not, and I would not want anyone citing it as though it were.
+
+**The honest limitation:** installs are cumulative and never decrease, so a 125% ratio means the replacement has accumulated more installs over its lifetime — not that those specific users migrated. A replacement that has simply existed longer accumulates more. This measures association, not migration, and no public data distinguishes the two.
+
+Two practical consequences that do survive all of that:
+
+**If you are deprecating something:** set the replacement pointer. It is the difference between the two regimes above, it takes one request, and 166 archived-repo extensions holding 240 million installs have not done it.
+
+**If you are forking something abandoned:** getting the original author to point at you is worth more than the code. Ask first. If they are unreachable, plan for the low end.
 
 ## 5. Obsidian, for comparison
 
@@ -115,7 +128,7 @@ But the licence problem is identical: **22.0% of stale Obsidian plugins have no 
 
 **The mechanism already exists and is barely used.** VS Code has supported deprecating an extension *in favour of another extension or setting* since May 2022 — when set, the editor UI actively guides users to migrate. Microsoft's [Deprecated extensions discussion](https://github.com/microsoft/vscode-discussions/discussions/1) (73 upvotes, 518 comments) explicitly invites anyone to report an extension that should be marked.
 
-That mechanism is precisely the one §4 measures as effective: a maintainer-set pointer is what turned the SFTP handover into a 113% capture. It works. It is just not reaching the 166 archived-repo extensions holding 240 million installs, none of which are marked.
+That mechanism is precisely the one §4 measures as effective across 178 pairs: where an author sets a pointer, the median replacement ends up with more installs than the extension it replaced. It works. It is just not reaching the 166 archived-repo extensions holding 240 million installs, none of which are marked.
 
 So the gap is not a missing feature. It is:
 
@@ -127,7 +140,7 @@ So the gap is not a missing feature. It is:
 
 - **VS Code:** 2,499 unique extensions via the public Marketplace `extensionquery` API (25 pages × 100, sorted by install count descending), collected 2026-09-01. Extensions with a resolvable GitHub URL and no release in 18+ months (n=1,486) were enriched via the GitHub API for last push, archive status, licence, open issues and stars; 1,443 resolved.
 - **Obsidian:** the full community registry (`community-plugins.json`, 7,152 plugins) and official download stats (`community-plugin-stats.json`), joined to GitHub metadata for the top 400 by downloads.
-- **Capture rates:** official download counters from `community-plugin-stats.json` and the VS Code Marketplace, on 2026-09-01.
+- **Capture rates:** VS Code's public extension control manifest (`https://main.vscode-cdn.net/extensions/marketplace.json`, 507 deprecations, 339 with a named replacement extension), joined to Marketplace install counts. 223 pairs had an original with 1,000+ installs and both sides resolvable. Obsidian counters from `community-plugin-stats.json`.
 - "Months" = time since the last *marketplace release* for VS Code, and since the last *repository commit* for Obsidian. Both are given per-row in the CSVs.
 
 ## Limitations — please read before citing
@@ -135,7 +148,8 @@ So the gap is not a missing feature. It is:
 - **The VS Code sample is the top 2,499 by installs, not the whole marketplace** (~100,000 extensions). It is deliberately biased toward the popular end. The long tail is very likely worse, not better; do not read these as marketplace-wide rates.
 - **Install counts are cumulative and never decrease.** They measure installs ever performed, not active users. An extension with 60M installs does not have 60M current users, and there is no public active-user figure.
 - **A stale release date is not proof of abandonment.** Some extensions are simply finished. Archive status and rating are better signals, which is why §2 leads on them.
-- **Capture rate rests on three case studies**, not a systematic sample. The mechanism is a plausible reading of a very large effect, not a controlled result. It is the finding here most in need of replication, and I would welcome counterexamples.
+- **Capture rate is an association, not a demonstrated migration.** Installs are cumulative and never decrease, so a replacement with more installs may simply have existed longer. There is no public active-user or migration data.
+- **The no-pointer comparison rests on a single case** (`calendar-plus`). The pointer side has 178 clean pairs; the no-pointer side has one. Treat the three-orders-of-magnitude gap as indicative and in need of more no-pointer measurements.
 - Repos were matched from marketplace metadata; extensions without a GitHub link are absent from the licence analysis.
 - Single snapshot, one day. No time series.
 
@@ -143,5 +157,6 @@ So the gap is not a missing feature. It is:
 
 - [`data/vscode-extensions.csv`](data/vscode-extensions.csv) — 2,499 rows
 - [`data/obsidian-plugins.csv`](data/obsidian-plugins.csv) — 400 rows
+- [`data/deprecation-capture-rates.csv`](data/deprecation-capture-rates.csv) — 223 deprecated→replacement pairs with install counts and confound flags
 
 Public data, public APIs. CC0 — use it for anything, no attribution required, though a link back is appreciated. Corrections and pull requests welcome; if you find an error I would rather know.
