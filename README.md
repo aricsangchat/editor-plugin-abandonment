@@ -93,7 +93,7 @@ The three cases differ by nearly four orders of magnitude, and the variable is n
 
 Two consequences:
 
-**For users:** you are almost certainly still running abandoned extensions, and the maintained alternative — if one exists — is invisible to you. Nothing in the marketplace surfaces it. Discovery of replacements is effectively broken.
+**For users:** you are almost certainly still running abandoned extensions, and the maintained alternative — if one exists — is probably invisible to you. VS Code can guide you to a replacement, but only when the original author has explicitly set one, which almost none have. See §6.
 
 **For anyone considering a rescue fork:** your fork's reach is determined almost entirely by whether you can get the original author to acknowledge it. Ask them *first*. If they are unreachable, expect 0.1%, and decide whether the work is still worth doing on those terms. It might be — but go in knowing the number.
 
@@ -113,12 +113,15 @@ But the licence problem is identical: **22.0% of stale Obsidian plugins have no 
 
 ## 6. What would actually help
 
-- **Marketplaces should surface maintenance status.** The data is already public — last release, commit recency, whether the repo is archived. VS Code's own [issue #177795](https://github.com/microsoft/vscode/issues/177795), "Ability to mark abandoned extensions", is still open. Right now the recommended way to check is to inspect the listing by hand.
-- **Archived repos should be flagged on the listing.** 166 extensions have an unambiguous, machine-readable "this is over" signal from the author that the marketplace does not show to the 240 million people who installed them.
-- **Deprecation should support a pointer.** The SFTP case shows a maintainer redirect transfers an entire userbase. Making that a first-class feature would fix replacement discovery outright.
-- **Add a LICENSE file.** One commit. It decides whether your work can outlive your interest in it.
+**The mechanism already exists and is barely used.** VS Code has supported deprecating an extension *in favour of another extension or setting* since May 2022 — when set, the editor UI actively guides users to migrate. Microsoft's [Deprecated extensions discussion](https://github.com/microsoft/vscode-discussions/discussions/1) (73 upvotes, 518 comments) explicitly invites anyone to report an extension that should be marked.
 
----
+That mechanism is precisely the one §4 measures as effective: a maintainer-set pointer is what turned the SFTP handover into a 113% capture. It works. It is just not reaching the 166 archived-repo extensions holding 240 million installs, none of which are marked.
+
+So the gap is not a missing feature. It is:
+
+- **Deprecation isn't surfaced in the Marketplace.** Microsoft's own note says "for now the extension will not be rendered as deprecated in the Marketplace. Support for this will come later" — that was 2022. Users browsing the web listing, which is how most people choose extensions, see nothing.
+- **Nothing detects the obvious signals.** An archived GitHub repository is a machine-readable, unambiguous "this is over" from the author. 166 extensions have one. That could be flagged automatically instead of waiting for a maintainer to remember to file a request.
+- **Add a LICENSE file.** One commit. It decides whether your work can outlive your interest in it, and 19% of stale extensions have made themselves unrescuable by skipping it.
 
 ## Method
 
