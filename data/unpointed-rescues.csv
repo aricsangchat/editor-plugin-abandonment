@@ -1,0 +1,7 @@
+original,original_installs,months_since_release,rescue,rescue_installs,capture_pct,note
+mhutchie.git-graph,15174235,64,hansu.git-graph-2,1261,0.01,licence forbids publishing derivatives
+dracula-theme.theme-dracula,10886704,25,mathcale.theme-dracula-refined,173416,1.59,
+aaron-bond.better-comments,10587085,49,edwinhuish.better-comments-next,53662,0.51,
+Gruntfuggly.todo-tree,7753772,40,FanaticPythoner.better-todo-tree,28001,0.36,
+felixfbecker.php-intellisense,5845164,80,zobo.php-intellisense,6043413,103.39,outlier; original repo still active despite stale release
+stkb.rewrap,894205,54,dnut.rewrap-revived,52910,5.92,

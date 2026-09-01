@@ -121,6 +121,32 @@ Two practical consequences that do survive all of that:
 
 **If you are forking something abandoned:** getting the original author to point at you is worth more than the code. Ask first. If they are unreachable, plan for the low end.
 
+
+### The other half: rescues nobody can find
+
+The pointer side of that comparison had 178 pairs. The no-pointer side had one, which I flagged as the weakest thing in this report. So I went and measured more.
+
+Taking the 300 most-installed extensions with no release in 2+ years, I looked for GitHub forks that are genuinely alive — 10+ stars and pushed within roughly the last 18 months. **Ten of them have one**, together holding **55.5 million installs**. Where that fork is also published to the Marketplace, the capture rate can be measured directly, with no official pointer anywhere:
+
+| Abandoned extension | Installs | Dead | Published rescue | Rescue installs | Capture |
+|---|---:|---:|---|---:|---:|
+| `mhutchie.git-graph` | 15,174,235 | 64 mo | `hansu.git-graph-2` | 1,261 | **0.01%** |
+| `Gruntfuggly.todo-tree` | 7,753,772 | 40 mo | `FanaticPythoner.better-todo-tree` | 28,001 | **0.36%** |
+| `aaron-bond.better-comments` | 10,587,085 | 49 mo | `edwinhuish.better-comments-next` | 53,662 | **0.51%** |
+| `dracula-theme.theme-dracula` | 10,886,704 | 25 mo | `mathcale.theme-dracula-refined` | 173,416 | **1.59%** |
+| `stkb.rewrap` | 894,205 | 54 mo | `dnut.rewrap-revived` | 52,910 | **5.92%** |
+| `felixfbecker.php-intellisense` | 5,845,164 | 80 mo | `zobo.php-intellisense` | 6,043,413 | **103.39%** |
+
+**Median 1.05%.** Five of six below 6%. None of these six appears in the deprecation manifest, so none has an official pointer.
+
+Against a median of ~125% where a pointer exists, that is the clearest statement of the effect this report can make — with the caveat below.
+
+**The outlier is real and I am not going to explain it away.** `zobo.php-intellisense` reached 103% with no official pointer at all. Notably, `felixfbecker/vscode-php-intellisense`'s *repository* is still active (last push August 2026) even though its Marketplace release is 80 months old — so "abandoned" is doing less work in that row than in the others, and PHP developers appear to have found the fork through ordinary community channels. A pointer clearly is not the only route. It is just the reliable one.
+
+**`mhutchie.git-graph` is the sharpest case in the whole report.** 15.2 million installs, a 4.94 rating from 675 reviews, dead five years — and a rescue sitting at 1,261 installs, **0.01%**. Its [licence](https://github.com/mhutchie/vscode-git-graph/blob/master/LICENSE) forbids publishing derivative works, so the well-maintained 288-star fork cannot be listed at all, and the one that is listed reaches essentially nobody.
+
+**Method caveat:** ten is a floor, not a total. I searched only the top 300 stale extensions and required 10+ stars and a recent push, so quieter rescues are certainly missed.
+
 ## 5. Obsidian, for comparison
 
 Top 400 Obsidian community plugins by download count, 123,950,091 combined downloads:
@@ -160,7 +186,7 @@ So the gap is not a missing feature. It is:
 - **Install counts are cumulative and never decrease.** They measure installs ever performed, not active users. An extension with 60M installs does not have 60M current users, and there is no public active-user figure.
 - **A stale release date is not proof of abandonment.** Some extensions are simply finished. Archive status and rating are better signals, which is why §2 leads on them.
 - **Capture rate is an association, not a demonstrated migration.** Installs are cumulative and never decrease, so a replacement with more installs may simply have existed longer. There is no public active-user or migration data.
-- **The no-pointer comparison rests on a single case** (`calendar-plus`). The pointer side has 178 clean pairs; the no-pointer side has one. Treat the three-orders-of-magnitude gap as indicative and in need of more no-pointer measurements.
+- **The no-pointer sample is six cases, not a systematic census** — found by searching forks of the 300 most-installed stale extensions with a 10-star / recent-push filter. Five of six sit under 6%; one reaches 103%. The pointer side has 178 pairs. Treat the contrast as strong but not settled.
 - Repos were matched from marketplace metadata; extensions without a GitHub link are absent from the licence analysis.
 - Single snapshot, one day. No time series.
 
@@ -169,5 +195,6 @@ So the gap is not a missing feature. It is:
 - [`data/vscode-extensions.csv`](data/vscode-extensions.csv) — 2,499 rows
 - [`data/obsidian-plugins.csv`](data/obsidian-plugins.csv) — 400 rows
 - [`data/deprecation-capture-rates.csv`](data/deprecation-capture-rates.csv) — 223 deprecated→replacement pairs with install counts and confound flags
+- [`data/unpointed-rescues.csv`](data/unpointed-rescues.csv) — 6 measurable rescues with no official pointer
 
 Public data, public APIs. CC0 — use it for anything, no attribution required, though a link back is appreciated. Corrections and pull requests welcome; if you find an error I would rather know.
