@@ -75,6 +75,17 @@ The last one is worth dwelling on: **4 million installs, untouched for nine and 
 
 If you maintain something and ever intend to walk away, **adding a LICENSE file is the single highest-leverage thing you can do for your users.** It costs one commit and it is the difference between someone being able to rescue your work and not.
 
+
+**A note on `NOASSERTION`.** GitHub reports 101 stale extensions this way — a licence file it cannot match to a known SPDX identifier. I checked the 14 largest by hand: 13 are custom but permissive (mostly Microsoft's own wording). One is not.
+
+`mhutchie.git-graph` — 15,174,235 installs, last released April 2021, and a **4.94 rating across 675 reviews** — carries an MIT-like licence with a single clause changed:
+
+> Permission is **NOT GRANTED to publish, distribute, sublicense, and/or sell derivative works** of the Software.
+
+Personal forking is allowed; publishing a derivative is not. There is an actively maintained fork ([hansu/vscode-git-graph](https://github.com/hansu/vscode-git-graph), 288 stars, last pushed May 2026) and it is **not on the Marketplace** — which the licence would explain. A [deprecation proposal](https://github.com/mhutchie/vscode-git-graph/issues/769) with 27 reactions is open on the repository.
+
+This is the one case in the sample where a beloved, heavily-used extension is stalled *and* the usual remedy is contractually unavailable. It is not a pattern — one in fourteen — but it does mean `NOASSERTION` should be read as "unknown, check it" rather than "probably fine."
+
 ## 4. When an author points at a replacement, users follow. When nobody does, they don't.
 
 This began as three case studies. It is now a systematic measurement, and the systematic version **corrected my first conclusion** — the original text is preserved in git history.
