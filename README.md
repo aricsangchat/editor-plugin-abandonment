@@ -147,6 +147,19 @@ Against a median of ~125% where a pointer exists, that is the clearest statement
 
 **Method caveat:** ten is a floor, not a total. I searched only the top 300 stale extensions and required 10+ stars and a recent push, so quieter rescues are certainly missed.
 
+
+### Why the unpointed rescues stay invisible
+
+I originally read the ~1% figure as a discovery failure — users would switch if only they knew. A developer on the [Git Graph deprecation thread](https://github.com/mhutchie/vscode-git-graph/issues/769) offered a simpler explanation, and it fits the data better:
+
+> Frankly, none of this is important enough to stoke any real action. This extension is still functioning, so there isn't much drive to re-create a replacement. Bit by bit, VS Code has implemented the features natively... While other extensions in the marketplace are not nearly as pretty, they seem to cover the functionality.
+
+That is almost certainly the mechanism. **Abandoned is not the same as broken.** An extension with no releases for five years keeps working until something in the API changes, so there is no moment that forces a user to look for an alternative — and the maintained fork stays at 1% not because it is hidden but because nobody is shopping.
+
+It reframes what the archived-repo number means. Those 240 million installs are not 240 million people currently suffering. They are 240 million installs of software with nobody left to fix it *when* it eventually breaks. The cost is deferred, not present — which is exactly why it does not generate the pressure you would expect from the size of the number.
+
+Two things still follow. Deferred cost is real cost, and the extensions most likely to break are the ones with the deepest API dependencies rather than the most installs. And for the 19% with no licence, the deferral is permanent: there is no fork available on the day it does break.
+
 ## 5. Obsidian, for comparison
 
 Top 400 Obsidian community plugins by download count, 123,950,091 combined downloads:
